@@ -1,0 +1,97 @@
+\title{Proyecto de Redes - Callcenter - PUJ, Cali.}
+\author{Alejandro~Cardona,
+        Luis~Santiago~Osorio}
+
+\date{\today}
+
+\documentclass[12pt]{article}
+\hoffset - 1cm % 2cm
+\voffset - 0.54cm % 2cm
+\setlength{\textwidth}{15.5cm}
+
+\usepackage{dcolumn}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+\tableofcontents
+
+\pagebreak 
+\section{\textbf{Introduci\'on}}
+En el desarrollo de una red para un callcenter, se aplicaran los pasos basicos de diseño, para obtener una solucion que concuerde con los requerimientos nesesarios de dicha red. En el proceso se realizaran los diseños y los calculos de el consumo, espacio y demas, para ayar los elementos fisicos nesesarios y adecuados para el montaje de la red en donde no se haga desperdicio de recurso y se empleen los equipos y los elementos adecuados.\\\\
+
+En este documento se mostrara el plano de la red, los equipos nesesarios, tablas de comparacion y demas, que respalden el buen diseño de la red y la buena seleccion de los equipos.
+
+\pagebreak
+\section{\textbf{Planteamiento del problema}}
+Se nesecita realizar el diseño de una red para un callcenter, equipado por 18 computadores que seran manejados por personal de la empresa, 2 computadores manejados en la oficina de direccion, servidores, y un servicio wifi, para la sala de visitas. En donde todos los computadores y dispositivos moviles, deberan poder tener acceso a internet, con sus debidas restricciones, en cuanto a el acceso a las diferentes redes internas del callcenter.\\\\
+Ademas se debe garantizar una robustes en la red, ya que la conexion debe ser permanente para que no sea afectado el trabajo del callcenter.\\\\
+Dentro de los problemas basicos que se abordaran seran los siguentes:
+\begin{itemize}
+\item
+Probedor de servicios
+\item
+Computadores
+\item
+infraestructura
+\item
+Robustes
+\end{itemize}
+
+\pagebreak
+\section{\textbf{Requerimienos de la red}}
+Los requerimientos de la red para el callcenter seran los siguentes:
+\begin{itemize}
+\item
+Numero de computadores.
+\item
+Usuarios.
+\item
+Provedor de internet.
+\item
+Tipos de cables.
+\item
+Velocidad.
+\item
+Costos.
+\end{itemize}
+
+\subsection{\textbf{Numero de computadores}}
+En la red se tendran al rededor de 30 a 42, con la siguente distribucion:
+\begin{itemize}
+\item
+2-7 computadores en la oficina, 2 con punto de red y de 1 a 5 por acceso wifi.
+\item
+10 posibes accesos en la salada de espera, todos por acceso wifi.
+\item
+18 computadores en la sala de atencion del callcenter, cada uno con su respectivo punto de red.
+\item
+5 puntos de cceso a camaras de seguridad.
+\end{itemize}
+
+%Analizar para terminar la tabla
+\subsection{\textbf{Usuarios}}
+Los usuarios de la red del callcenter, tendran la capacidad de desarrollar diferentes tareas y diferentes tipos de servicios en la red, los cuales se muestran acontinacion.\\\\
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\makebox[2.7cm][c]{Servicio/Usuario} &\makebox[2.7cm][c]{Pcs-Atencion} &\makebox[2.7cm][c]{Pcs-Oficina} &\makebox[2.7cm][c]{Pcs-Sala} &\makebox[2.7cm][c]{Seguridad}\\
+\hline
+\makebox[2.7cm][c]{Nevegacion Web} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{}\\
+\hline
+\makebox[2.7cm][c]{Mensajeria instantanea} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{} &\makebox[2.7cm][c]{}\\
+\hline
+\end{tabular}
+
+\pagebreak
+\section{\textbf{Analizis de consumo}}
+
+
+\bibliographystyle{abbrv}
+\bibliography{main}
+
+\end{document}
+

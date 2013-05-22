@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}\textbf {Introduci\'on}}{3}
+\contentsline {section}{\numberline {2}\textbf {Planteamiento del problema}}{4}
+\contentsline {section}{\numberline {3}\textbf {Requerimienos de la red}}{5}
+\contentsline {subsection}{\numberline {3.1}\textbf {Numero de computadores}}{5}
+\contentsline {subsection}{\numberline {3.2}\textbf {Usuarios}}{6}
+\contentsline {subsection}{\numberline {3.3}\textbf {Probedor de internet}}{6}
+\contentsline {subsection}{\numberline {3.4}\textbf {Cables}}{7}
+\contentsline {subsection}{\numberline {3.5}\textbf {Velocidad}}{7}
+\contentsline {subsection}{\numberline {3.6}\textbf {Costo}}{7}
+\contentsline {section}{\numberline {4}\textbf {Analizis de consumo}}{8}
+\contentsline {subsection}{\numberline {4.1}\textbf {Navegacion Web}}{8}
