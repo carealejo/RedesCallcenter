@@ -9,7 +9,7 @@
 \voffset - 0.54cm % 2cm
 \setlength{\textwidth}{15cm}
 \baselinestretch
-\renewcommand{\baselinestretch}{2}
+\renewcommand{\baselinestretch}{1.5}
 
 \usepackage{dcolumn}
 \usepackage{colortbl}
@@ -51,6 +51,8 @@ Los requerimientos de la red para el callcenter seran los siguentes:
 \item
 Numero de computadores.
 \item
+Conectividad Voip.
+\item
 Usuarios.
 \item
 Provedor de internet.
@@ -74,6 +76,9 @@ En la red se tendran al rededor de 30 a 42, con la siguente distribucion:
 \item
 5 puntos de cceso a camaras de seguridad.
 \end{itemize}
+
+\subsection{\textbf{Conectividad VoIP}}
+Debe existir conectividad Voip, tanto en los computadores de servicio como en los computadores de la oficina, ya que debido a que el software que se manejara para la atencion del callcenter maneja la conectividad por VoIP.
 
 %Analizar para terminar la tabla
 \subsection{\textbf{Usuarios}}
@@ -108,22 +113,76 @@ El costo de la red es libre, se cuenta con el capital para cualquier invercion, 
 
 \pagebreak
 \section{\textbf{Analizis de consumo}}
-Para el analizis del consumo se tendran en cuenta los diferentes tipos de servicio que se le ofreceran a los usuarios de la red y el tiempo promedio de consumo de cada servicio.\\\\
-Los servicios son los siguentes:
-\begin{itemize}
-\item
-Navegacion Web.
-\item
-VoIP.
-\item
-Descargas.
-\item
-Video llamadas.
-\item
-Camaras de seguridad.
-\end{itemize}
+Dentro de los requerimientos de la red, se tendran en cuenta para el analizis del trafico aquellos en los que aya un mayor uso por parte de los usuarios del callcenter, para poder posteriormente, hacer las posibles evaluaciones de seleccion del probedor de servicio, seleccion de los equipos a utilizar y de los diferentes materiales de infraestructura que se utilizaran.\\\\ 
+En los servicios que se deben prestar para el callcenter los mas utilizados son el manejo de VoIP y las camaras de seguridad debido a que tienen un flujo continuo sobre la red, y la navegacion web para los computadores que no estan restringidos.\\\\
+%% Para el analizis del consumo se tendran en cuenta los diferentes tipos de servicio que se le ofreceran a los usuarios de la red.\\\\
+%% Los servicios son los siguentes:
+%% \begin{itemize}
+%% \item
+%% Navegacion Web.
+%% \item
+%% VoIP.
+%% \item
+%% Descargas.
+%% \item
+%% Video llamadas.
+%% \item
+%% Camaras de seguridad.
+%% \end{itemize}
 
-\subsection{\textbf{Navegacion Web}}
+\subsection{\textbf{Consumo VoIP}}
+En el consumo VoIP, se tiene en cuenta que este servicio consta de 2 etapas, la señalisacion de la llamada y la transmision de audio que es realizada a traves de RTP, dado a que el ancho de banda consumido por la señalizacion no es relevante, se enfocara el calculo de consumo en la transmicion del audio.\\\\
+Para el analizis de esta transmicion veremos el empaquetamiento de los datos en las 7 capas del modelo OSI. El audio codificado necesita ser empaquetado dentro de paquetes RTP. A su vez, los paquetes RTP necesitan ser empaquetados dentro de paquetes UDP, que luego necesitan ser empaquetados dentro de paquetes IP. en este ejemplo tomaremos Ethernet que es el tipo de red más común, y requiere otro empaquetamiento.\\\\
+En la siguente tabla se ilustra lo dicho, con los respectivos valores para cada una de las capaz.\\\\
+
+\begin{tabular}{|c|c|}
+\hline
+\makebox[3.1cm][c]{Ethernet} &\makebox[3.1cm][c]{15.2 kbps}\\
+\hline
+\makebox[2.7cm][c]{IP} &\makebox[3.1cm][c]{8 kbps}\\
+\hline
+\makebox[2.7cm][c]{UDP} &\makebox[3.1cm][c]{3.2 kbps}\\
+\hline
+\makebox[2.7cm][c]{RTP} &\makebox[3.1cm][c]{4.8 kbps}\\
+\hline
+\makebox[2.7cm][c]{Encoded Audio} &\makebox[3.1cm][c]{Depende del codec}\\
+\hline
+\end{tabular}\\\\\\
+Los codecs de audio para el VoIP, son el G711, G722, GSM Y G729 en los cuales veremos diferentes caractertizticas y tomaremos el mas indicado para el callcenter.\\\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\makebox[3.1cm][c]{\textbf{Codec}} &\makebox[3.1cm][c]{\textbf{Calidad Audio}} &\makebox[3.1cm][c]{\textbf{Recursos CPU}} &\makebox[3.1cm][c]{\textbf{Tamaño}}\\
+\hline
+\makebox[2.7cm][c]{G711} &\makebox[3.1cm][c]{Buena} &\makebox[3.1cm][c]{Muy pocos} &\makebox[3.1cm][c]{95.2}\\
+\hline
+\makebox[2.7cm][c]{G722} &\makebox[3.1cm][c]{Muy Buena} &\makebox[3.1cm][c]{Pocos} &\makebox[3.1cm][c]{95.2}\\
+\hline
+\makebox[2.7cm][c]{GSM} &\makebox[3.1cm][c]{Aceptable} &\makebox[3.1cm][c]{Promedio} &\makebox[3.1cm][c]{44.2}\\
+\hline
+\makebox[2.7cm][c]{G729} &\makebox[3.1cm][c]{Promedio} &\makebox[3.1cm][c]{Altos} &\makebox[3.1cm][c]{39.2}\\
+\hline
+\end{tabular}\\\\
+ 
+Segun las tablas anteriormente mostradas, el codec adecuado para el callcenter sera el G722, ya que uno de los principales requerimientos es que debe haber una buena comunicacion, se utilizara este codec y debido a que se cuenta con los recursos nesesarios se adaptara la red pra tener el uso de este codec.\\\\
+En un total el consumo de uno de los equipos para el uso de este servicio seria el siguente en cuanto a kbps:\\\\
+
+\begin{tabular}{|c|c|}
+\hline
+\makebox[3.1cm][c]{Ethernet} &\makebox[3.1cm][c]{15.2 kbps}\\
+\hline
+\makebox[2.7cm][c]{IP} &\makebox[3.1cm][c]{8 kbps}\\
+\hline
+\makebox[2.7cm][c]{UDP} &\makebox[3.1cm][c]{3.2 kbps}\\
+\hline
+\makebox[2.7cm][c]{RTP} &\makebox[3.1cm][c]{4.8 kbps}\\
+\hline
+\makebox[2.7cm][c]{Encoded Audio} &\makebox[3.1cm][c]{41.8 kbps}\\
+\hline
+\makebox[2.7cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{\textbf{73 kbps}}\\
+\hline
+\end{tabular}\\\\\\
+De acuerdo con los calculos, cada equipo de los usuarios de atencion y de los usuarios de oficina consumira un total de 73 kbps, y teniendo encuenta la cacidad media de coneccion de equipos en la red el consumo por kbps seria de 25 * 73 kbps dandonos un total medio de consumo de VoIP de 1825 kbps.
 
 \bibliographystyle{abbrv}
 \bibliography{main}
