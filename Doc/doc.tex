@@ -177,12 +177,67 @@ En un total el consumo de uno de los equipos para el uso de este servicio seria 
 \hline
 \makebox[2.7cm][c]{RTP} &\makebox[3.1cm][c]{4.8 kbps}\\
 \hline
-\makebox[2.7cm][c]{Encoded Audio} &\makebox[3.1cm][c]{41.8 kbps}\\
+\makebox[2.7cm][c]{Encoded Audio} &\makebox[3.1cm][c]{64 kbps}\\
 \hline
-\makebox[2.7cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{\textbf{73 kbps}}\\
+\makebox[2.7cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{\textbf{95.2 kbps}}\\
 \hline
 \end{tabular}\\\\\\
-De acuerdo con los calculos, cada equipo de los usuarios de atencion y de los usuarios de oficina consumira un total de 73 kbps, y teniendo encuenta la cacidad media de coneccion de equipos en la red el consumo por kbps seria de 25 * 73 kbps dandonos un total medio de consumo de VoIP de 1825 kbps.
+De acuerdo con los calculos, cada equipo de los usuarios de atencion y de los usuarios de oficina consumira un total de 73 kbps, y teniendo encuenta la cacidad media de coneccion de equipos en la red el consumo por kbps seria de 25 * 73 kbps dandonos un total medio de consumo de VoIP de 2380 kbps.
+
+\subsection{\textbf{Consumo TCP/IP Camaras de seguridad}}
+%% Los sistemas de vigilancia IP utilizan cada vez más recursos de las redes TCP/IP para enviar video de un punto a otro (por ejemplo, de una Cámara IP a un sistema de Gestión de Video típicamente en una computadora personal o un servidor dedicado) Las redes de IP son un medio atractivo para transportar video porque por un cable pueden llevar el video de muchas cámaras. Estas redes también sirven un propósito multi-funcional porque el mismo cable puede llevar video así como audio, señales de alarma, señales de relevo, órdenes de PTZ, y los datos de serie. Con POE (Power Over Ethernet), el cable puede llevar también la electricidad a la cámara. Esto simplifica mucho la cantidad de cables que se requirió anteriormente. Sin embargo, la red TCP/IP es limitada por la cantidad de tráfico que puede llevar – conocido como ancho de banda, que es medida (bps). La siguiente tabla muestra las tres clases de redes de Ethernet de estrella-topología de uso corriente hoy.
+
+El sistema de vigilancia del callcenter sera de tipo IP, el cual utilizara los recursos TCP/IP de la red para enviar video y audio de cada camara a el servidor dedicado del sistema de vigilancia. el calculo de ancho de banda para las camaraws de seguridad esta dado, segun la resolucioon que envien las camaras al servidor. El sistema de seguridad del callcenter se realizara en formato de video MPEG4. En la siguente tabla se muestra algunas de las resoluciones y sus valores de consumo de banda ancha para el formato MPEG4.\\\\
+\begin{tabular}{|c|c|c|}
+\hline
+\makebox[3.1cm][c]{\textbf{Resolucion}} &\makebox[3.1cm][c]{\textbf{IPS}} &\makebox[3.1cm][c]{\textbf{Kbps}}\\
+\hline
+\makebox[3.1cm][c]{CIF} &\makebox[3.1cm][c]{3} &\makebox[3.1cm][c]{160}\\
+\hline
+\makebox[3.1cm][c]{CIF} &\makebox[3.1cm][c]{7} &\makebox[3.1cm][c]{185}\\
+\hline
+\makebox[3.1cm][c]{CIF} &\makebox[3.1cm][c]{15} &\makebox[3.1cm][c]{200}\\
+\hline
+\makebox[3.1cm][c]{CIF} &\makebox[3.1cm][c]{30} &\makebox[3.1cm][c]{500}\\
+\hline
+\makebox[3.1cm][c]{2CIF} &\makebox[3.1cm][c]{3} &\makebox[3.1cm][c]{320}\\
+\hline
+\makebox[3.1cm][c]{2CIF} &\makebox[3.1cm][c]{7} &\makebox[3.1cm][c]{370}\\
+\hline
+\makebox[3.1cm][c]{2CIF} &\makebox[3.1cm][c]{15} &\makebox[3.1cm][c]{400}\\
+\hline
+\makebox[3.1cm][c]{2CIF} &\makebox[3.1cm][c]{30} &\makebox[3.1cm][c]{1000}\\
+\hline
+\makebox[3.1cm][c]{4CIF} &\makebox[3.1cm][c]{3} &\makebox[3.1cm][c]{640}\\
+\hline
+\makebox[3.1cm][c]{4CIF} &\makebox[3.1cm][c]{7} &\makebox[3.1cm][c]{740}\\
+\hline
+\makebox[3.1cm][c]{4CIF} &\makebox[3.1cm][c]{15} &\makebox[3.1cm][c]{800}\\
+\hline
+\makebox[3.1cm][c]{4CIF} &\makebox[3.1cm][c]{30} &\makebox[3.1cm][c]{2000}\\
+\hline
+\end{tabular}\\\\\\
+
+La calidad requerida para el callcenter sera 2CIF a 15 IPS, que es el formato mas comun y de buena calidad para la imagen. Dados los datos el consumo de las camaras de seguridad en la red sera de 400 kbps por cada camara, dandonos un tota de 5 * 400 la suma de el trafico de todas las camaras de seguridad, para un total de 2000 kbps.
+
+\subsection{\textbf{Consumo Navegacion web, chat, videos, email}}
+El calculo de el trafico consumido por la navegacion web, chat, videos y email se realizara con un simulador Capsa de Colasoft, en el cual se realizo una medicion de un solo ordenador efectuando lsa tareas descritas. El resultado fue que el computador realizando estas tareas tiene un conumo de alrededor de 36 kbps, lo cual nos dara un total de consumo para los computadores que no tienen esta restriccion de 17 * 36 kbps tomando el peor de los casos en los que esten todos los pcs conectados sin restriccion para un total de 612 kbps.
+
+\subsection{\textbf{Consumo Total}}
+El consumo total estara dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
+\begin{tabular}{|c|c|c|}
+\hline
+\makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{1PC}} &\makebox[3.1cm][c]{\textbf{Total}}\\
+\hline
+\makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{95.2 kbps} &\makebox[3.1cm][c]{2380 kbps}\\
+\hline
+\makebox[3.1cm][c]{TCP/IP Seguridad} &\makebox[3.1cm][c]{400 kbps} &\makebox[3.1cm][c]{2000 kbps}\\
+\hline
+\makebox[3.1cm][c]{Navegacion y otros} &\makebox[3.1cm][c]{36 kbps} &\makebox[3.1cm][c]{612 kbps}\\
+\hline
+\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{4992 kbps}\\
+\hline
+\end{tabular}\\\\\\
 
 \bibliographystyle{abbrv}
 \bibliography{main}
