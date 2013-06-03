@@ -15,6 +15,8 @@
 \usepackage{colortbl}
 \usepackage{graphicx}
 \usepackage{rotating}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 
 \begin{document}
 \maketitle
@@ -24,29 +26,30 @@
 
 \pagebreak 
 \section{\textbf{Introduci\'on}}
-En el desarrollo de una red para un callcenter, se aplicaran los pasos basicos de diseño, para obtener una solucion que concuerde con los requerimientos nesesarios de dicha red. En el proceso se realizaran los diseños y los calculos de el consumo, espacio y demas, para ayar los elementos fisicos nesesarios y adecuados para el montaje de la red en donde no se haga desperdicio de recurso y se empleen los equipos y los elementos adecuados.\\\\
+En el desarrollo de una red para un callcenter, se aplicaran los pasos básicos de diseño, para obtener una solución que concuerde con los requerimientos necesarios de dicha red. En el proceso se realizaran los diseños y los cálculos de el consumo, espacio y demás, para hallar los elementos físicos necesarios y adecuados para el montaje de la red en donde no se haga desperdicio de recurso y se empleen los equipos y los elementos adecuados.\\\\
 
-En este documento se mostrara el plano de la red, los equipos nesesarios, tablas de comparacion y demas, que respalden el buen diseño de la red y la buena seleccion de los equipos.
+En este documento se mostrara el plano de la red, los equipos necesarios, tablas de comparación y demás, que respalden el buen diseño de la red y la buena selección de los equipos.
 
 \pagebreak
 \section{\textbf{Planteamiento del problema}}
-Se nesecita realizar el diseño de una red para un callcenter, equipado por 18 computadores que seran manejados por personal de la empresa, 2 computadores manejados en la oficina de direccion, servidores, y un servicio wifi, para la sala de visitas. En donde todos los computadores y dispositivos moviles, deberan poder tener acceso a internet, con sus debidas restricciones, en cuanto a el acceso a las diferentes redes internas del callcenter.\\\\
-Ademas se debe garantizar una robustes en la red, ya que la conexion debe ser permanente para que no sea afectado el trabajo del callcenter.\\\\
-Dentro de los problemas basicos que se abordaran seran los siguentes:
+\section{\textbf{Planteamiento del problema}}
+Se necesita realizar el diseño de una red para un callcenter, equipado por 18 computadores que serán manejados por personal de la empresa, 2 computadores manejados en la oficina de dirección, servidores, y un servicio wifi, para la sala de visitas. En donde todos los computadores y dispositivos móviles, deberán poder tener acceso a internet, con sus debidas restricciones, en cuanto a el acceso a las diferentes redes internas del callcenter.\\\\
+Además se debe garantizar una robustez en la red, ya que la conexión debe ser permanente para que no sea afectado el trabajo del callcenter.\\\\
+Dentro de los problemas básicos que se abordaran serán los siguientes:
 \begin{itemize}
 \item
-Probedor de servicios
+Proveedor de servicios
 \item
 Computadores
 \item
 infraestructura
 \item
-Robustes
+Robustez
 \end{itemize}
 
 \pagebreak
 \section{\textbf{Requerimienos de la red}}
-Los requerimientos de la red para el callcenter seran los siguentes:
+Los requerimientos de la red para el callcenter serán los siguientes:
 \begin{itemize}
 \item
 Numero de computadores.
@@ -55,7 +58,7 @@ Conectividad Voip.
 \item
 Usuarios.
 \item
-Provedor de internet.
+Proveedor de internet.
 \item
 Tipos de cables.
 \item
@@ -65,20 +68,20 @@ Costos.
 \end{itemize}
 
 \subsection{\textbf{Numero de computadores}}
-En la red se tendran al rededor de 30 a 42, con la siguente distribucion:
+En la red se tendrán al rededor de 30 a 42, con la siguiente distribución:
 \begin{itemize}
 \item
 2-7 computadores en la oficina, 2 con punto de red y de 1 a 5 por acceso wifi.
 \item
-10 posibes accesos en la salada de espera, todos por acceso wifi.
+10 posibles accesos en la salada de espera, todos por acceso wifi.
 \item
-18 computadores en la sala de atencion del callcenter, cada uno con su respectivo punto de red.
+18 computadores en la sala de atención del callcenter, cada uno con su respectivo punto de red.
 \item
-5 puntos de cceso a camaras de seguridad.
+5 puntos de acceso a cámaras de seguridad.
 \end{itemize}
 
 \subsection{\textbf{Conectividad VoIP}}
-Debe existir conectividad Voip, tanto en los computadores de servicio como en los computadores de la oficina, ya que debido a que el software que se manejara para la atencion del callcenter maneja la conectividad por VoIP.
+Debe existir conectividad Voip, tanto en los computadores de servicio como en los computadores de la oficina, ya que debido a que el software que se manejara para la atención del callcenter maneja la conectividad por VoIP.
 
 %Analizar para terminar la tabla
 \subsection{\textbf{Usuarios}}
@@ -238,6 +241,65 @@ El consumo total estara dado por la sumo del consumo de todos los servicios calc
 \makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{4992 kbps}\\
 \hline
 \end{tabular}\\\\\\
+
+\pagebreak
+\section{\textbf{Equipos}}
+\subsection{\textbf{Equipos de la red}}
+En la siguente lista se mostraran los equipos que se utilizaran en la red.
+\begin{itemize}
+\item
+4 Routers.
+\item
+4 Switches.
+\item
+2 Acces Point.
+\item
+Computadores.
+\item
+Servidor Camaras de seguridad.
+\item
+Servidor VoIP. 
+\end{itemize}
+
+\subsection{\textbf{Routers}}
+En esta seccion del documento se mostraran algunas comparaciones, caracterizticas de los routers para realizar la seleccion de los routers indicados para la red.\\\\
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\makebox[2.5cm][c]{\textbf{Marca}} &\makebox[2.5cm][c]{\textbf{Router}} &\makebox[2.5cm][c]{\textbf{Puertos}} &\makebox[2.5cm][c]{\textbf{Mbps}} &\makebox[2.5cm][c]{\textbf{Frecuencia}}\\
+\makebox[2.5cm][c]{} &\makebox[2.5cm][c]{} &\makebox[2.5cm][c]{\textbf{FastEthernet}} &\makebox[2.5cm][c]{} &\makebox[2.5cm][c]{}\\
+\hline
+\makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{AC1000} &\makebox[2.5cm][c]{4} &\makebox[2.5cm][c]{300} &\makebox[2.5cm][c]{2.4GHz}\\
+\hline
+\makebox[2.5cm][c]{Huawei} &\makebox[2.5cm][c]{E5776} &\makebox[2.5cm][c]{4} &\makebox[2.5cm][c]{150} &\makebox[2.5cm][c]{2.4GHz}\\
+\hline
+\makebox[2.5cm][c]{Cisco} &\makebox[2.5cm][c]{1812/K9} &\makebox[2.5cm][c]{8} &\makebox[2.5cm][c]{100} &\makebox[2.5cm][c]{2.4GHz}\\
+\hline
+\end{tabular}\\\\
+En la seleccion del router se escoje el router Cisco debido que a pesar de que el costo es un pco mas elevado, posee la velocidad nesesaria y adecuada para el callcenter y tiene un mejor soporte que los otros 2 routers.
+
+\subsection{\textbf{Switches}}
+En esta seccion del documento se mostraran algunas comparaciones, caracterizticas de los switches para realizar la seleccion de los switches indicados para la red.\\\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\makebox[2.5cm][c]{\textbf{Marca}} &\makebox[2.5cm][c]{\textbf{Switche}} &\makebox[2.5cm][c]{\textbf{Puertos}} &\makebox[2.5cm][c]{\textbf{RackMountable}}\\
+\hline
+\makebox[2.5cm][c]{Cisco} &\makebox[3.2cm][c]{WS-C2960-24TT-L} &\makebox[2.5cm][c]{24} &\makebox[3cm][c]{Si}\\
+\hline
+\makebox[2.5cm][c]{Cisco} &\makebox[2.5cm][c]{WS-C3560X-24T-L} &\makebox[2.5cm][c]{24} &\makebox[2.5cm][c]{Si}\\
+\hline
+\makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{DES-108} &\makebox[2.5cm][c]{8} &\makebox[2.5cm][c]{No}\\
+\hline
+\makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{DGS-1024A} &\makebox[2.5cm][c]{24} &\makebox[2.5cm][c]{No}\\
+\hline
+\makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{DSS-16+} &\makebox[2.5cm][c]{16} &\makebox[2.5cm][c]{Si}\\
+\hline
+\end{tabular}\\\\
+En la seleccion del switche, se toma el switche cisco WS-C2960-24TT-L, ya que a pesar de que los dos switches cumplen con las caracteristicas principales de la red, no es nesesario del switche WS-C3560X-24T-L, que tenga tantas opciones de coneccion remota ya que la red se manejara internamente en el callcenter, para el manejo de la red de los pcs de la officina se seleccionara un switche D-link DSS-16+, ya que este tiene los puertos nesesarios para la red y posee capacidad para el montaje en el rack.
+
+\subsection{\textbf{Acces point}}
+En esta sesión del documento se mostraran algunas comparaciones, características de los accespoint para realizar la selección de los accespoint indicados para la red.\\\\
 
 \bibliographystyle{abbrv}
 \bibliography{main}
