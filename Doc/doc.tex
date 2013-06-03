@@ -102,22 +102,22 @@ Los usuarios de la red del callcenter, tendran la capacidad de desarrollar difer
 \hline
 \end{tabular}
 
-\subsection{\textbf{Probedor de internet}}
-Se requiere que se tengan 2 probedores de internet para que exista una robustes en la red, ya que debido a que es un callcenter, la coneccion debera ser continua y sin interrupciones, tambien se debe tener en cuenta la calidad del servicio del probedor en cuanto a una respuesta afallos en la red y si el servicio cumple con las nesecidades de los usuarios.
+\subsection{\textbf{Proveedor de internet}}
+Se requiere que se tengan 2 proveedores de internet para que exista una robustez en la red, ya que debido a que es un callcenter, la conexión deberá ser continua y sin interrupciones, también se debe tener en cuenta la calidad del servicio del proveedor en cuanto a una respuesta a fallos en la red y si el servicio cumple con las necesidades de los usuarios.
 
 \subsection{\textbf{Cables}}
-Los tipos de cables para la red, deben soportar el trafico de red y garantizar coneccion.
+Los tipos de cables para la red, deben soportar el trafico de red y garantizar conexión.
 
 \subsection{\textbf{Velocidad}}
-La veloidad de coneccion debe ser efectiva y continua, para poder sostener las llamadaas del callcenter, y que siempre exista una comunicacion fluida con los clientes del callcenter.
+La velocidad de conexión debe ser efectiva y continua, para poder sostener las llamadas del callcenter, y que siempre exista una comunicación fluida con los clientes del callcenter.
 
 \subsection{\textbf{Costo}}
-El costo de la red es libre, se cuenta con el capital para cualquier invercion, siempre y cuando esta inversion este justificada.
+El costo de la red es libre, se cuenta con el capital para cualquier inversión, siempre y cuando esta inversión este justificada.
 
 \pagebreak
-\section{\textbf{Analizis de consumo}}
-Dentro de los requerimientos de la red, se tendran en cuenta para el analizis del trafico aquellos en los que aya un mayor uso por parte de los usuarios del callcenter, para poder posteriormente, hacer las posibles evaluaciones de seleccion del probedor de servicio, seleccion de los equipos a utilizar y de los diferentes materiales de infraestructura que se utilizaran.\\\\ 
-En los servicios que se deben prestar para el callcenter los mas utilizados son el manejo de VoIP y las camaras de seguridad debido a que tienen un flujo continuo sobre la red, y la navegacion web para los computadores que no estan restringidos.\\\\
+\section{\textbf{Analisis de consumo}}
+Dentro de los requerimientos de la red, se tendrán en cuenta para el análisis del trafico aquellos en los que aya un mayor uso por parte de los usuarios del callcenter, para poder posteriormente, hacer las posibles evaluaciones de selección del proveedor de servicio, selección de los equipos a utilizar y de los diferentes materiales de infraestructura que se utilizaran.\\\\
+En los servicios que se deben prestar para el callcenter los mas utilizados son el manejo de VoIP y las cámaras de seguridad debido a que tienen un flujo continuo sobre la red, y la navegación web para los computadores que no están restringidos.\\\\
 %% Para el analizis del consumo se tendran en cuenta los diferentes tipos de servicio que se le ofreceran a los usuarios de la red.\\\\
 %% Los servicios son los siguentes:
 %% \begin{itemize}
@@ -134,9 +134,9 @@ En los servicios que se deben prestar para el callcenter los mas utilizados son 
 %% \end{itemize}
 
 \subsection{\textbf{Consumo VoIP}}
-En el consumo VoIP, se tiene en cuenta que este servicio consta de 2 etapas, la señalisacion de la llamada y la transmision de audio que es realizada a traves de RTP, dado a que el ancho de banda consumido por la señalizacion no es relevante, se enfocara el calculo de consumo en la transmicion del audio.\\\\
-Para el analizis de esta transmicion veremos el empaquetamiento de los datos en las 7 capas del modelo OSI. El audio codificado necesita ser empaquetado dentro de paquetes RTP. A su vez, los paquetes RTP necesitan ser empaquetados dentro de paquetes UDP, que luego necesitan ser empaquetados dentro de paquetes IP. en este ejemplo tomaremos Ethernet que es el tipo de red más común, y requiere otro empaquetamiento.\\\\
-En la siguente tabla se ilustra lo dicho, con los respectivos valores para cada una de las capaz.\\\\
+En el consumo VoIP, se tiene en cuenta que este servicio consta de 2 etapas, la señalización de la llamada y la transmisión de audio que es realizada a través de RTP, dado a que el ancho de banda consumido por la señalización no es relevante, se enfocara el calculo de consumo en la transmisión del audio.\\\\
+Para el análisis de esta transmisión veremos el empaquetamiento de los datos en las 7 capas del modelo OSI. El audio codificado necesita ser empaquetado dentro de paquetes RTP. A su vez, los paquetes RTP necesitan ser empaquetados dentro de paquetes UDP, que luego necesitan ser empaquetados dentro de paquetes IP. en este ejemplo tomaremos Ethernet que es el tipo de red más común, y requiere otro empaquetamiento.\\\\
+En la siguiente tabla se ilustra lo dicho, con los respectivos valores para cada una de las capaz.\\\\
 
 \begin{tabular}{|c|c|}
 \hline
@@ -151,7 +151,7 @@ En la siguente tabla se ilustra lo dicho, con los respectivos valores para cada 
 \makebox[2.7cm][c]{Encoded Audio} &\makebox[3.1cm][c]{Depende del codec}\\
 \hline
 \end{tabular}\\\\\\
-Los codecs de audio para el VoIP, son el G711, G722, GSM Y G729 en los cuales veremos diferentes caractertizticas y tomaremos el mas indicado para el callcenter.\\\\
+Los codecs de audio para el VoIP, son el G711, G722, GSM Y G729 en los cuales veremos diferentes características y tomaremos el mas indicado para el callcenter.\\\\
 
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -166,9 +166,8 @@ Los codecs de audio para el VoIP, son el G711, G722, GSM Y G729 en los cuales ve
 \makebox[2.7cm][c]{G729} &\makebox[3.1cm][c]{Promedio} &\makebox[3.1cm][c]{Altos} &\makebox[3.1cm][c]{39.2}\\
 \hline
 \end{tabular}\\\\
- 
-Segun las tablas anteriormente mostradas, el codec adecuado para el callcenter sera el G722, ya que uno de los principales requerimientos es que debe haber una buena comunicacion, se utilizara este codec y debido a que se cuenta con los recursos nesesarios se adaptara la red pra tener el uso de este codec.\\\\
-En un total el consumo de uno de los equipos para el uso de este servicio seria el siguente en cuanto a kbps:\\\\
+Según las tablas anteriormente mostradas, el codec adecuado para el callcenter será el G722, ya que uno de los principales requerimientos es que debe haber una buena comunicación, se utilizara este codec y debido a que se cuenta con los recursos necesarios se adaptara la red para tener el uso de este codec.\\\\
+En un total el consumo de uno de los equipos para el uso de este servicio seria el siguiente en cuanto a kbps:\\\\
 
 \begin{tabular}{|c|c|}
 \hline
@@ -185,12 +184,10 @@ En un total el consumo de uno de los equipos para el uso de este servicio seria 
 \makebox[2.7cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{\textbf{95.2 kbps}}\\
 \hline
 \end{tabular}\\\\\\
-De acuerdo con los calculos, cada equipo de los usuarios de atencion y de los usuarios de oficina consumira un total de 73 kbps, y teniendo encuenta la cacidad media de coneccion de equipos en la red el consumo por kbps seria de 25 * 73 kbps dandonos un total medio de consumo de VoIP de 2380 kbps.
+De acuerdo con los cálculos, cada equipo de los usuarios de atención y de los usuarios de oficina consumirá un total de 73 kbps, y teniendo en cuenta la calidad media de conexión de equipos en la red el consumo por kbps seria de 25 * 73 kbps dándonos un total medio de consumo de VoIP de 2380 kbps.
 
-\subsection{\textbf{Consumo TCP/IP Camaras de seguridad}}
-%% Los sistemas de vigilancia IP utilizan cada vez más recursos de las redes TCP/IP para enviar video de un punto a otro (por ejemplo, de una Cámara IP a un sistema de Gestión de Video típicamente en una computadora personal o un servidor dedicado) Las redes de IP son un medio atractivo para transportar video porque por un cable pueden llevar el video de muchas cámaras. Estas redes también sirven un propósito multi-funcional porque el mismo cable puede llevar video así como audio, señales de alarma, señales de relevo, órdenes de PTZ, y los datos de serie. Con POE (Power Over Ethernet), el cable puede llevar también la electricidad a la cámara. Esto simplifica mucho la cantidad de cables que se requirió anteriormente. Sin embargo, la red TCP/IP es limitada por la cantidad de tráfico que puede llevar – conocido como ancho de banda, que es medida (bps). La siguiente tabla muestra las tres clases de redes de Ethernet de estrella-topología de uso corriente hoy.
-
-El sistema de vigilancia del callcenter sera de tipo IP, el cual utilizara los recursos TCP/IP de la red para enviar video y audio de cada camara a el servidor dedicado del sistema de vigilancia. el calculo de ancho de banda para las camaraws de seguridad esta dado, segun la resolucioon que envien las camaras al servidor. El sistema de seguridad del callcenter se realizara en formato de video MPEG4. En la siguente tabla se muestra algunas de las resoluciones y sus valores de consumo de banda ancha para el formato MPEG4.\\\\
+\subsection{\textbf{Consumo TCP/IP Cámaras de seguridad}}
+El sistema de vigilancia del callcenter Serra de tipo IP, el cual utilizara los recursos TCP/IP de la red para enviar video y audio de cada cámara a el servidor dedicado del sistema de vigilancia. el calculo de ancho de banda para las cámaras de seguridad esta dado, según la resolución que envíen las cámaras al servidor. El sistema de seguridad del callcenter se realizara en formato de video MPEG4. En la siguiente tabla se muestra algunas de las resoluciones y sus valores de consumo de banda ancha para el formato MPEG4.\\\\
 \begin{tabular}{|c|c|c|}
 \hline
 \makebox[3.1cm][c]{\textbf{Resolucion}} &\makebox[3.1cm][c]{\textbf{IPS}} &\makebox[3.1cm][c]{\textbf{Kbps}}\\
@@ -221,13 +218,13 @@ El sistema de vigilancia del callcenter sera de tipo IP, el cual utilizara los r
 \hline
 \end{tabular}\\\\\\
 
-La calidad requerida para el callcenter sera 2CIF a 15 IPS, que es el formato mas comun y de buena calidad para la imagen. Dados los datos el consumo de las camaras de seguridad en la red sera de 400 kbps por cada camara, dandonos un tota de 5 * 400 la suma de el trafico de todas las camaras de seguridad, para un total de 2000 kbps.
+La calidad requerida para el callcenter será 2CIF a 15 IPS, que es el formato mas común y de buena calidad para la imagen. Dados los datos el consumo de las cámaras de seguridad en la red común de 400 kbps por cada cámara, dándonos un tota de 5 * 400 la suma de el trafico de todas las cámaras de seguridad, para un total de 2000 kbps.
 
-\subsection{\textbf{Consumo Navegacion web, chat, videos, email}}
-El calculo de el trafico consumido por la navegacion web, chat, videos y email se realizara con un simulador Capsa de Colasoft, en el cual se realizo una medicion de un solo ordenador efectuando lsa tareas descritas. El resultado fue que el computador realizando estas tareas tiene un conumo de alrededor de 36 kbps, lo cual nos dara un total de consumo para los computadores que no tienen esta restriccion de 17 * 36 kbps tomando el peor de los casos en los que esten todos los pcs conectados sin restriccion para un total de 612 kbps.
+\subsection{\textbf{Consumo Navegación web, chat, videos, email}}
+El calculo de el trafico consumido por la navegación web, chat, videos y email se realizara con un simulador Capsa de Colasoft, en el cual se realizo una medición de un solo ordenador efectuando las tareas descritas. El resultado fue que el computador realizando estas tareas tiene un consumo de alrededor de 36 kbps, lo cual nos dará un total de consumo para los computadores que no tienen esta restricción de 17 * 36 kbps tomando el peor de los casos en los que estén todos los pcs conectados sin restricción para un total de 612 kbps.
 
 \subsection{\textbf{Consumo Total}}
-El consumo total estara dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
+El consumo total estará dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguiente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
 \begin{tabular}{|c|c|c|}
 \hline
 \makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{1PC}} &\makebox[3.1cm][c]{\textbf{Total}}\\
@@ -262,8 +259,7 @@ Servidor VoIP.
 \end{itemize}
 
 \subsection{\textbf{Routers}}
-En esta seccion del documento se mostraran algunas comparaciones, caracterizticas de los routers para realizar la seleccion de los routers indicados para la red.\\\\
-
+En esta sección del documento se mostraran algunas comparaciones, características de los routers para realizar la selección de los routers indicados para la red.\\\\
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \makebox[2.5cm][c]{\textbf{Marca}} &\makebox[2.5cm][c]{\textbf{Router}} &\makebox[2.5cm][c]{\textbf{Puertos}} &\makebox[2.5cm][c]{\textbf{Mbps}} &\makebox[2.5cm][c]{\textbf{Frecuencia}}\\
@@ -276,11 +272,10 @@ En esta seccion del documento se mostraran algunas comparaciones, caracteriztica
 \makebox[2.5cm][c]{Cisco} &\makebox[2.5cm][c]{1812/K9} &\makebox[2.5cm][c]{8} &\makebox[2.5cm][c]{100} &\makebox[2.5cm][c]{2.4GHz}\\
 \hline
 \end{tabular}\\\\
-En la seleccion del router se escoje el router Cisco debido que a pesar de que el costo es un pco mas elevado, posee la velocidad nesesaria y adecuada para el callcenter y tiene un mejor soporte que los otros 2 routers.
+En la selección del router se escoge el router Cisco debido que a pesar de que el costo es un poco mas elevado, posee la velocidad necesaria y adecuada para el callcenter y tiene un mejor soporte que los otros 2 routers.
 
 \subsection{\textbf{Switches}}
-En esta seccion del documento se mostraran algunas comparaciones, caracterizticas de los switches para realizar la seleccion de los switches indicados para la red.\\\\
-
+En esta sección del documento se mostraran algunas comparaciones, características de los switches para realizar la selección de los switches indicados para la red.\\\\
 \begin{tabular}{|c|c|c|c|}
 \hline
 \makebox[2.5cm][c]{\textbf{Marca}} &\makebox[2.5cm][c]{\textbf{Switche}} &\makebox[2.5cm][c]{\textbf{Puertos}} &\makebox[2.5cm][c]{\textbf{RackMountable}}\\
@@ -296,10 +291,23 @@ En esta seccion del documento se mostraran algunas comparaciones, caracteriztica
 \makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{DSS-16+} &\makebox[2.5cm][c]{16} &\makebox[2.5cm][c]{Si}\\
 \hline
 \end{tabular}\\\\
-En la seleccion del switche, se toma el switche cisco WS-C2960-24TT-L, ya que a pesar de que los dos switches cumplen con las caracteristicas principales de la red, no es nesesario del switche WS-C3560X-24T-L, que tenga tantas opciones de coneccion remota ya que la red se manejara internamente en el callcenter, para el manejo de la red de los pcs de la officina se seleccionara un switche D-link DSS-16+, ya que este tiene los puertos nesesarios para la red y posee capacidad para el montaje en el rack.
+En la selección del switche, se toma el switche cisco WS-C2960-24TT-L, ya que a pesar de que los dos switches cumplen con las características principales de la red, no es necesario del switche WS-C3560X-24T-L, que tenga tantas opciones de conexión remota ya que la red se manejara internamente en el callcenter, para el manejo de la red de los pcs de la oficina se seleccionara un switche D-link DSS-16+, ya que este tiene los puertos necesarios para la red y posee capacidad para el montaje en el rack.
 
 \subsection{\textbf{Acces point}}
 En esta sesión del documento se mostraran algunas comparaciones, características de los accespoint para realizar la selección de los accespoint indicados para la red.\\\\
+
+\begin{tabular}{|c|c|c|}
+\hline
+\makebox[2.5cm][c]{\textbf{Marca}} &\makebox[2.5cm][c]{\textbf{Acccespoint}} &\makebox[2.5cm][c]{\textbf{band}}\\
+\hline
+\makebox[2.5cm][c]{Cisco} &\makebox[3.2cm][c]{AIR-AP1261N-A-K9} &\makebox[2.5cm][c]{5GHz}\\
+\hline
+\makebox[2.5cm][c]{D-link} &\makebox[3.2cm][c]{DAP-1522} &\makebox[2.5cm][c]{2.4GHz}\\
+\hline
+\end{tabular}\\\\
+Se selecciona el accespoint de cisco AIR-AP1261N-A-K9, ya que tiene una mejor frecuencia.\\\\
+
+
 
 \bibliographystyle{abbrv}
 \bibliography{main}
