@@ -32,7 +32,6 @@ En este documento se mostrara el plano de la red, los equipos necesarios, tablas
 
 \pagebreak
 \section{\textbf{Planteamiento del problema}}
-\section{\textbf{Planteamiento del problema}}
 Se necesita realizar el diseño de una red para un callcenter, equipado por 18 computadores que serán manejados por personal de la empresa, 2 computadores manejados en la oficina de dirección, servidores, y un servicio wifi, para la sala de visitas. En donde todos los computadores y dispositivos móviles, deberán poder tener acceso a internet, con sus debidas restricciones, en cuanto a el acceso a las diferentes redes internas del callcenter.\\\\
 Además se debe garantizar una robustez en la red, ya que la conexión debe ser permanente para que no sea afectado el trabajo del callcenter.\\\\
 Dentro de los problemas básicos que se abordaran serán los siguientes:
@@ -46,7 +45,11 @@ infraestructura
 \item
 Robustez
 \end{itemize}
-
+\pagebreak
+En el siguiente dibujo se muestra el plano del callcenter.
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=16cm,height=9cm]{plano.jpg}}}
+\end{center}
 \pagebreak
 \section{\textbf{Requerimienos de la red}}
 Los requerimientos de la red para el callcenter serán los siguientes:
@@ -113,6 +116,15 @@ La velocidad de conexión debe ser efectiva y continua, para poder sostener las 
 
 \subsection{\textbf{Costo}}
 El costo de la red es libre, se cuenta con el capital para cualquier inversión, siempre y cuando esta inversión este justificada.
+
+\pagebreak
+\section{\textbf{Distrucibucion de el paso de los cables}}
+En esta sección del documento se muestra un plano de la distribución, a los diferentes equipos finales de la red, como lo son los computadores de la oficina de la sala del callcenter y el accespoint para la sala.
+
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=16cm,height=9cm]{planocanaletas.jpg}}}
+\end{center}
+
 
 \pagebreak
 \section{\textbf{Analisis de consumo}}
@@ -224,20 +236,51 @@ La calidad requerida para el callcenter será 2CIF a 15 IPS, que es el formato m
 El calculo de el trafico consumido por la navegación web, chat, videos y email se realizara con un simulador Capsa de Colasoft, en el cual se realizo una medición de un solo ordenador efectuando las tareas descritas. El resultado fue que el computador realizando estas tareas tiene un consumo de alrededor de 36 kbps, lo cual nos dará un total de consumo para los computadores que no tienen esta restricción de 17 * 36 kbps tomando el peor de los casos en los que estén todos los pcs conectados sin restricción para un total de 612 kbps.
 
 \subsection{\textbf{Consumo Total}}
-El consumo total estará dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguiente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
-\begin{tabular}{|c|c|c|}
+El consumo total en la red se mostrara en el siguiente plano del callcenter, en el que se observaran los distintos tipos de consumos sacados anteriormente, ya que son los mas importantes en la red.\\\\
+\subsubsection{\textbf{Plano de consumo}}
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=16cm,height=9cm]{planoconsumo.jpg}}}
+\end{center}
+\subsubsection{\textbf{Consumo por servicio}}
+En el plano se observa el flujo de consumo de cada uno de los servicios fundamentales de la red. en la siguiente tabla se explica cada color y si el servicio consume de subida y de bajada.\\\\
+\begin{tabular}{|c|c|c|c|}
 \hline
-\makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{1PC}} &\makebox[3.1cm][c]{\textbf{Total}}\\
+\makebox[3.1cm][c]{\textbf{Color}} &\makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{Download}} &\makebox[3.1cm][c]{\textbf{Upload}}\\
 \hline
-\makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{95.2 kbps} &\makebox[3.1cm][c]{2380 kbps}\\
+\makebox[3.1cm][c]{Amarillo} &\makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{Si} &\makebox[3.1cm][c]{Si}\\
 \hline
-\makebox[3.1cm][c]{TCP/IP Seguridad} &\makebox[3.1cm][c]{400 kbps} &\makebox[3.1cm][c]{2000 kbps}\\
+\makebox[3.1cm][c]{Rojo} &\makebox[3.1cm][c]{NavegacionWeb} &\makebox[3.1cm][c]{si} &\makebox[3.1cm][c]{Poco}\\
+\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{y otros} &\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{}\\
 \hline
-\makebox[3.1cm][c]{Navegacion y otros} &\makebox[3.1cm][c]{36 kbps} &\makebox[3.1cm][c]{612 kbps}\\
+\makebox[3.1cm][c]{Azul} &\makebox[3.1cm][c]{Seguridad} &\makebox[3.1cm][c]{Poco} &\makebox[3.1cm][c]{Si}\\
 \hline
-\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{4992 kbps}\\
-\hline
-\end{tabular}\\\\\\
+\end{tabular}\\\\
+
+\begin{itemize}
+\item
+\textbf{VoIP(Amarillo)}: El consumo de VoIP en el cable amarillo, segun el consumo calculado es de 95.2 por equipo, y segun la tabla anterior, este consumo estara de subida y bajada por lo que el trafico en el cable amarillo por computador con acceso a este servicio sera un total de 190.4 kbps.
+\item
+\textbf{NavegacionWeb y otros(Rojo)}: El consumo de este servicio es un consumo que tiene su gran parte de trafico en la descarga por lo que no tendremos en cuenta el poco trafico de subida. Para cada uno de los equipos con este servicio el consumo de navegacion sera entonces 36 Kbps.
+\item
+\textbf{Seguridad(Azul)}: El consumo de la seguridad, muestra que es poco su consumo de descarga ya que este servicio tiene un mayor de consumo de subida, por el envio de las imagenes y audio, caculados previamente, en este servicio tendremos en cuenta su consumo de subida, el cual nos dara un total de 400 Kbps por camara. 
+\end{itemize}
+El total consumido en los sectores del callcenter, se muestra en el plano de consumo y estara definido por la cantidad de colores que pasen por la canaleta y los computadores ligados en ese momento a dicho color. 
+
+%-----------------------------------------------------------------
+%% El consumo total estará dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguiente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
+%% \begin{tabular}{|c|c|c|}
+%% \hline
+%% \makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{1PC}} &\makebox[3.1cm][c]{\textbf{Total}}\\
+%% \hline
+%% \makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{95.2 kbps} &\makebox[3.1cm][c]{2380 kbps}\\
+%% \hline
+%% \makebox[3.1cm][c]{TCP/IP Seguridad} &\makebox[3.1cm][c]{400 kbps} &\makebox[3.1cm][c]{2000 kbps}\\
+%% \hline
+%% \makebox[3.1cm][c]{Navegacion y otros} &\makebox[3.1cm][c]{36 kbps} &\makebox[3.1cm][c]{612 kbps}\\
+%% \hline
+%% \makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{4992 kbps}\\
+%% \hline
+%% \end{tabular}\\\\\\
 
 \pagebreak
 \section{\textbf{Equipos}}

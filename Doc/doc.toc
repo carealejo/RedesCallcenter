@@ -1,23 +1,25 @@
 \select@language {spanish}
 \contentsline {section}{\numberline {1}\textbf {Introduci\'on}}{4}
 \contentsline {section}{\numberline {2}\textbf {Planteamiento del problema}}{5}
-\contentsline {section}{\numberline {3}\textbf {Planteamiento del problema}}{5}
-\contentsline {section}{\numberline {4}\textbf {Requerimienos de la red}}{6}
-\contentsline {subsection}{\numberline {4.1}\textbf {Numero de computadores}}{6}
-\contentsline {subsection}{\numberline {4.2}\textbf {Conectividad VoIP}}{7}
-\contentsline {subsection}{\numberline {4.3}\textbf {Usuarios}}{7}
-\contentsline {subsection}{\numberline {4.4}\textbf {Proveedor de internet}}{7}
-\contentsline {subsection}{\numberline {4.5}\textbf {Cables}}{8}
-\contentsline {subsection}{\numberline {4.6}\textbf {Velocidad}}{8}
-\contentsline {subsection}{\numberline {4.7}\textbf {Costo}}{8}
-\contentsline {section}{\numberline {5}\textbf {Analisis de consumo}}{9}
-\contentsline {subsection}{\numberline {5.1}\textbf {Consumo VoIP}}{9}
-\contentsline {subsection}{\numberline {5.2}\textbf {Consumo TCP/IP C\IeC {\'a}maras de seguridad}}{11}
-\contentsline {subsection}{\numberline {5.3}\textbf {Consumo Navegaci\IeC {\'o}n web, chat, videos, email}}{13}
-\contentsline {subsection}{\numberline {5.4}\textbf {Consumo Total}}{13}
-\contentsline {section}{\numberline {6}\textbf {Equipos}}{14}
-\contentsline {subsection}{\numberline {6.1}\textbf {Equipos de la red}}{14}
-\contentsline {subsection}{\numberline {6.2}\textbf {Routers}}{14}
-\contentsline {subsection}{\numberline {6.3}\textbf {Switches}}{15}
-\contentsline {subsection}{\numberline {6.4}\textbf {Acces point}}{15}
-\contentsline {section}{\numberline {7}\textbf {Mapa de coexiones de la red y Rack}}{17}
+\contentsline {section}{\numberline {3}\textbf {Requerimienos de la red}}{7}
+\contentsline {subsection}{\numberline {3.1}\textbf {Numero de computadores}}{7}
+\contentsline {subsection}{\numberline {3.2}\textbf {Conectividad VoIP}}{8}
+\contentsline {subsection}{\numberline {3.3}\textbf {Usuarios}}{8}
+\contentsline {subsection}{\numberline {3.4}\textbf {Proveedor de internet}}{8}
+\contentsline {subsection}{\numberline {3.5}\textbf {Cables}}{9}
+\contentsline {subsection}{\numberline {3.6}\textbf {Velocidad}}{9}
+\contentsline {subsection}{\numberline {3.7}\textbf {Costo}}{9}
+\contentsline {section}{\numberline {4}\textbf {Distrucibucion de el paso de los cables}}{10}
+\contentsline {section}{\numberline {5}\textbf {Analisis de consumo}}{11}
+\contentsline {subsection}{\numberline {5.1}\textbf {Consumo VoIP}}{11}
+\contentsline {subsection}{\numberline {5.2}\textbf {Consumo TCP/IP C\IeC {\'a}maras de seguridad}}{13}
+\contentsline {subsection}{\numberline {5.3}\textbf {Consumo Navegaci\IeC {\'o}n web, chat, videos, email}}{15}
+\contentsline {subsection}{\numberline {5.4}\textbf {Consumo Total}}{15}
+\contentsline {subsubsection}{\numberline {5.4.1}\textbf {Plano de consumo}}{16}
+\contentsline {subsubsection}{\numberline {5.4.2}\textbf {Consumo por servicio}}{16}
+\contentsline {section}{\numberline {6}\textbf {Equipos}}{18}
+\contentsline {subsection}{\numberline {6.1}\textbf {Equipos de la red}}{18}
+\contentsline {subsection}{\numberline {6.2}\textbf {Routers}}{18}
+\contentsline {subsection}{\numberline {6.3}\textbf {Switches}}{19}
+\contentsline {subsection}{\numberline {6.4}\textbf {Acces point}}{19}
+\contentsline {section}{\numberline {7}\textbf {Mapa de coexiones de la red y Rack}}{21}

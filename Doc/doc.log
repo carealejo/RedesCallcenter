@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 09:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,16 +426,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-)
+(Font)              <6> on input line 5.
+ [2])
 \tf@toc=\write3
 \openout3 = `doc.toc'.
 
- [2] [3]
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -446,241 +446,277 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 88--104
+[5] <plano.jpg, id=21, 1194.71344pt x 601.4972pt>
+File: plano.jpg Graphic file (type jpg)
+ <use plano.jpg>
+Package pdftex.def Info: plano.jpg used on input line 51.
+(pdftex.def)             Requested size: 455.23546pt x 256.07806pt.
+
+Overfull \hbox (28.44412pt too wide) in paragraph at lines 51--52
+ [] 
+ []
+
+[6 <./plano.jpg>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 91--107
 
  []
 
 
-Overfull \hbox (31.1017pt too wide) in paragraph at lines 88--104
+Overfull \hbox (31.1017pt too wide) in paragraph at lines 91--107
 [] 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 119--135
+[8] [9] <planocanaletas.jpg, id=35, 1194.71344pt x 601.4972pt>
+File: planocanaletas.jpg Graphic file (type jpg)
+
+<use planocanaletas.jpg>
+Package pdftex.def Info: planocanaletas.jpg used on input line 125.
+(pdftex.def)             Requested size: 455.23546pt x 256.07806pt.
+
+Overfull \hbox (28.44412pt too wide) in paragraph at lines 125--126
+ [] 
+ []
+
+[10 <./planocanaletas.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--135
+Underfull \hbox (badness 10000) in paragraph at lines 131--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--135
+Underfull \hbox (badness 10000) in paragraph at lines 131--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--140
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 141--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--155
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 153--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--155
+Underfull \hbox (badness 10000) in paragraph at lines 153--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--155
+Underfull \hbox (badness 10000) in paragraph at lines 153--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--171
+Underfull \hbox (badness 10000) in paragraph at lines 153--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--171
+Underfull \hbox (badness 10000) in paragraph at lines 168--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--171
+Underfull \hbox (badness 10000) in paragraph at lines 168--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--171
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 172--188
+Underfull \hbox (badness 10000) in paragraph at lines 168--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--188
+Underfull \hbox (badness 10000) in paragraph at lines 168--183
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 184--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--220
+Underfull \hbox (badness 10000) in paragraph at lines 184--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--220
+Underfull \hbox (badness 10000) in paragraph at lines 202--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--220
+Underfull \hbox (badness 10000) in paragraph at lines 202--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--220
-
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 227--241
+Underfull \hbox (badness 10000) in paragraph at lines 202--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--241
+Underfull \hbox (badness 10000) in paragraph at lines 202--232
+
+ []
+
+[13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--241
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
+<planoconsumo.jpg, id=52, 1194.71344pt x 601.4972pt>
+File: planoconsumo.jpg Graphic file (type jpg)
+ <use planoconsumo.jpg>
+Package pdftex.def Info: planoconsumo.jpg used on input line 242.
+(pdftex.def)             Requested size: 455.23546pt x 256.07806pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--241
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 262--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--276
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 278--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
+Overfull \hbox (28.44412pt too wide) in paragraph at lines 242--243
+ [] 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 299--309
+Underfull \hbox (badness 10000) in paragraph at lines 245--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--309
+Underfull \hbox (badness 10000) in paragraph at lines 245--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--309
+Underfull \hbox (badness 10000) in paragraph at lines 245--258
 
  []
 
-[16] <conred.jpg, id=56, 618.81187pt x 304.13625pt>
+[16 <./planoconsumo.jpg>] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 305--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--319
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 321--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 342--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--352
+
+ []
+
+[20] <conred.jpg, id=72, 618.81187pt x 304.13625pt>
 File: conred.jpg Graphic file (type jpg)
  <use conred.jpg>
-Package pdftex.def Info: conred.jpg used on input line 315.
+Package pdftex.def Info: conred.jpg used on input line 358.
 (pdftex.def)             Requested size: 284.53416pt x 227.62827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
-[17 <./conred.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+[21 <./conred.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
-<rack.jpg, id=60, 213.79875pt x 288.3272pt>
+<rack.jpg, id=76, 213.79875pt x 288.3272pt>
 File: rack.jpg Graphic file (type jpg)
  <use rack.jpg>
-Package pdftex.def Info: rack.jpg used on input line 322.
+Package pdftex.def Info: rack.jpg used on input line 365.
 (pdftex.def)             Requested size: 284.54774pt x 227.63078pt.
 
 No file doc.bbl.
-[18 <./rack.jpg>] (./doc.aux
+[22 <./rack.jpg>] (./doc.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2601 strings out of 495059
- 34313 string characters out of 3182030
+ 2616 strings out of 495059
+ 34585 string characters out of 3182030
  98917 words of memory out of 3000000
- 5742 multiletter control sequences out of 15000+200000
+ 5754 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,9n,27p,562b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,27p,562b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on doc.pdf (18 pages, 148278 bytes).
+Output written on doc.pdf (22 pages, 550873 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
