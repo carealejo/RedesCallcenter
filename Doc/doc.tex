@@ -291,7 +291,7 @@ En esta sección del documento se mostraran algunas comparaciones, característi
 \makebox[2.5cm][c]{D-link} &\makebox[2.5cm][c]{DSS-16+} &\makebox[2.5cm][c]{16} &\makebox[2.5cm][c]{Si}\\
 \hline
 \end{tabular}\\\\
-En la selección del switche, se toma el switche cisco WS-C2960-24TT-L, ya que a pesar de que los dos switches cumplen con las características principales de la red, no es necesario del switche WS-C3560X-24T-L, que tenga tantas opciones de conexión remota ya que la red se manejara internamente en el callcenter, para el manejo de la red de los pcs de la oficina se seleccionara un switche D-link DSS-16+, ya que este tiene los puertos necesarios para la red y posee capacidad para el montaje en el rack.
+En la selección del switche, se toma el switche cisco WS-C2960-24TT-L, ya que a pesar de que los dos switches cumplen con las características principales de la red, no es necesario del switche WS-C3560X-24T-L, que tenga tantas opciones de conexión remota ya que la red se manejara internamente en el callcenter, para el manejo de la red de los pcs de la oficina ya que el router tiene un switche integrado, no abra neecidad de switche, ya que la capacidad requerida no supera los puertos de conexion del router.
 
 \subsection{\textbf{Acces point}}
 En esta sesión del documento se mostraran algunas comparaciones, características de los accespoint para realizar la selección de los accespoint indicados para la red.\\\\
@@ -307,6 +307,20 @@ En esta sesión del documento se mostraran algunas comparaciones, característic
 \end{tabular}\\\\
 Se selecciona el accespoint de cisco AIR-AP1261N-A-K9, ya que tiene una mejor frecuencia.\\\\
 
+\pagebreak
+\section{\textbf{Mapa de coexiones de la red y Rack}}
+A continuación se mostrara el mapa de la red física y la relación entre cada dispositivo.
+
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=10cm,height=8cm]{conred.jpg}}}
+\end{center}
+En la imagen se observa las conexiones entre los router switches y accespoint de la red. En la señalización, el color azul, representa la entrada de los dos proveedores de Internet. El color verde las conexiones entre los routers internos para las subredes y el color rojo, la conexión de salida de los routers internos a los dispositivos necesarios.\\\\
+\pagebreak
+
+En la siguiente imagen se mostrara la organización del rack con los dispositivos que se encuentren en el, ya que los accespoint no estarán presentes en el rack.\\\\
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=10cm,height=8cm]{rack.jpg}}}
+\end{center}
 
 
 \bibliographystyle{abbrv}
