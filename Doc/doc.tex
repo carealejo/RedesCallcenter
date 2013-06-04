@@ -264,26 +264,43 @@ En el plano se observa el flujo de consumo de cada uno de los servicios fundamen
 \item
 \textbf{Seguridad(Azul)}: El consumo de la seguridad, muestra que es poco su consumo de descarga ya que este servicio tiene un mayor de consumo de subida, por el envio de las imagenes y audio, caculados previamente, en este servicio tendremos en cuenta su consumo de subida, el cual nos dara un total de 400 Kbps por camara. 
 \end{itemize}
-El total consumido en los sectores del callcenter, se muestra en el plano de consumo y estara definido por la cantidad de colores que pasen por la canaleta y los computadores ligados en ese momento a dicho color. 
-
-%-----------------------------------------------------------------
-%% El consumo total estará dado por la sumo del consumo de todos los servicios calculados anteriormente. En la siguiente tabla de consumo se muestra el total de consumo promedio de la red.\\\\
-%% \begin{tabular}{|c|c|c|}
-%% \hline
-%% \makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{1PC}} &\makebox[3.1cm][c]{\textbf{Total}}\\
-%% \hline
-%% \makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{95.2 kbps} &\makebox[3.1cm][c]{2380 kbps}\\
-%% \hline
-%% \makebox[3.1cm][c]{TCP/IP Seguridad} &\makebox[3.1cm][c]{400 kbps} &\makebox[3.1cm][c]{2000 kbps}\\
-%% \hline
-%% \makebox[3.1cm][c]{Navegacion y otros} &\makebox[3.1cm][c]{36 kbps} &\makebox[3.1cm][c]{612 kbps}\\
-%% \hline
-%% \makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{4992 kbps}\\
-%% \hline
-%% \end{tabular}\\\\\\
+El total consumido en los sectores del callcenter, se muestra en el plano de consumo y estara definido por la cantidad de colores que pasen por la canaleta y los computadores ligados en ese momento a dicho color.\\\\ 
 
 \pagebreak
 \section{\textbf{Equipos}}
+Los equipos que utilizaremos para el callcenter, estarán seleccionados según los cálculos de consumo hechos anteriormente y se mostraran las especificaciones necesarias para la red de cada equipo, que nos permita tomar una decisión acerca de cual es mejor para nuestra red.\\\\
+En la red observamos que tenemos un consumo de descarga en su punto máximo de 5372 Kbps y de subida de 6760 kbps.En la siguiente tabla se muestra los calculos de subida y de bajada.
+\begin{itemize}
+\item
+\textbf{Calculo de bajada}:\\\\
+\begin{tabular}{|c|c|c|c|}
+\hline
+\makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{Consumo}} &\makebox[3.1cm][c]{\textbf{NoEquipos}} &\makebox[3.1cm][c]{\textbf{Total}}\\
+\hline
+\makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{190.4 Kbps} &\makebox[3.1cm][c]{25} &\makebox[3.1cm][c]{4760 Kbps}\\
+\hline
+\makebox[3.1cm][c]{NavegacionWeb} &\makebox[3.1cm][c]{36 Kbps} &\makebox[3.1cm][c]{17} &\makebox[3.1cm][c]{612 Kbps}\\
+\makebox[3.1cm][c]{y otros} &\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{}\\
+\hline
+\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{5370 Kbps}\\
+\hline
+\end{tabular}
+\item
+\textbf{Calculo de subida}:\\\\
+\begin{tabular}{|c|c|c|c|}
+\hline
+\makebox[3.1cm][c]{\textbf{Servicio}} &\makebox[3.1cm][c]{\textbf{Consumo}} &\makebox[3.1cm][c]{\textbf{NoEquipos}} &\makebox[3.1cm][c]{\textbf{Total}}\\
+\hline
+\makebox[3.1cm][c]{VoIP} &\makebox[3.1cm][c]{190.4 Kbps} &\makebox[3.1cm][c]{25} &\makebox[3.1cm][c]{4760 Kbps}\\
+\hline
+\makebox[3.1cm][c]{Seguridad} &\makebox[3.1cm][c]{400 Kbps} &\makebox[3.1cm][c]{5} &\makebox[3.1cm][c]{2000 Kbps}\\
+\hline
+\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{} &\makebox[3.1cm][c]{\textbf{Total}} &\makebox[3.1cm][c]{6760 Kbps}\\
+\hline
+\end{tabular}
+\end{itemize} 
+
+\pagebreak
 \subsection{\textbf{Equipos de la red}}
 En la siguente lista se mostraran los equipos que se utilizaran en la red.
 \begin{itemize}
@@ -315,7 +332,7 @@ En esta sección del documento se mostraran algunas comparaciones, característi
 \makebox[2.5cm][c]{Cisco} &\makebox[2.5cm][c]{1812/K9} &\makebox[2.5cm][c]{8} &\makebox[2.5cm][c]{100} &\makebox[2.5cm][c]{2.4GHz}\\
 \hline
 \end{tabular}\\\\
-En la selección del router se escoge el router Cisco debido que a pesar de que el costo es un poco mas elevado, posee la velocidad necesaria y adecuada para el callcenter y tiene un mejor soporte que los otros 2 routers.
+En la selección del router se escoge el router Cisco debido que a pesar de que el costo es un poco mas elevado, posee la velocidad necesaria y adecuada para el callcenter y tiene un mejor soporte que los otros 2 routers.\\\\
 
 \subsection{\textbf{Switches}}
 En esta sección del documento se mostraran algunas comparaciones, características de los switches para realizar la selección de los switches indicados para la red.\\\\

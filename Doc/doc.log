@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 19:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,79 +626,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--258
 
  []
 
-[16 <./planoconsumo.jpg>] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 305--319
+[16 <./planoconsumo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--319
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--289
+
+ []
+
+
+Overfull \hbox (5.39815pt too wide) in paragraph at lines 275--289
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--301
+
+ []
+
+
+Overfull \hbox (5.39815pt too wide) in paragraph at lines 289--301
+[] 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 321--338
+Underfull \hbox (badness 10000) in paragraph at lines 322--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--338
+Underfull \hbox (badness 10000) in paragraph at lines 322--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 322--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 322--336
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 342--352
+Underfull \hbox (badness 10000) in paragraph at lines 338--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--352
+Underfull \hbox (badness 10000) in paragraph at lines 338--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--352
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
-[20] <conred.jpg, id=72, 618.81187pt x 304.13625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 359--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--369
+
+ []
+
+[21] <conred.jpg, id=75, 618.81187pt x 304.13625pt>
 File: conred.jpg Graphic file (type jpg)
  <use conred.jpg>
-Package pdftex.def Info: conred.jpg used on input line 358.
+Package pdftex.def Info: conred.jpg used on input line 375.
 (pdftex.def)             Requested size: 284.53416pt x 227.62827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 
  []
 
-[21 <./conred.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+[22 <./conred.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-<rack.jpg, id=76, 213.79875pt x 288.3272pt>
+<rack.jpg, id=79, 213.79875pt x 288.3272pt>
 File: rack.jpg Graphic file (type jpg)
  <use rack.jpg>
-Package pdftex.def Info: rack.jpg used on input line 365.
+Package pdftex.def Info: rack.jpg used on input line 382.
 (pdftex.def)             Requested size: 284.54774pt x 227.63078pt.
 
 No file doc.bbl.
-[22 <./rack.jpg>] (./doc.aux
+[23 <./rack.jpg>] (./doc.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
@@ -713,10 +758,10 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on doc.pdf (22 pages, 550873 bytes).
+Output written on doc.pdf (23 pages, 552350 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,8 +18,8 @@
 \contentsline {subsubsection}{\numberline {5.4.1}\textbf {Plano de consumo}}{16}
 \contentsline {subsubsection}{\numberline {5.4.2}\textbf {Consumo por servicio}}{16}
 \contentsline {section}{\numberline {6}\textbf {Equipos}}{18}
-\contentsline {subsection}{\numberline {6.1}\textbf {Equipos de la red}}{18}
-\contentsline {subsection}{\numberline {6.2}\textbf {Routers}}{18}
-\contentsline {subsection}{\numberline {6.3}\textbf {Switches}}{19}
-\contentsline {subsection}{\numberline {6.4}\textbf {Acces point}}{19}
-\contentsline {section}{\numberline {7}\textbf {Mapa de coexiones de la red y Rack}}{21}
+\contentsline {subsection}{\numberline {6.1}\textbf {Equipos de la red}}{19}
+\contentsline {subsection}{\numberline {6.2}\textbf {Routers}}{19}
+\contentsline {subsection}{\numberline {6.3}\textbf {Switches}}{20}
+\contentsline {subsection}{\numberline {6.4}\textbf {Acces point}}{20}
+\contentsline {section}{\numberline {7}\textbf {Mapa de coexiones de la red y Rack}}{22}
