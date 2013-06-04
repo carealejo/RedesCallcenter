@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 19:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.12)  3 JUN 2013 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,27 +741,51 @@ File: rack.jpg Graphic file (type jpg)
  <use rack.jpg>
 Package pdftex.def Info: rack.jpg used on input line 382.
 (pdftex.def)             Requested size: 284.54774pt x 227.63078pt.
+ [23 <./rack.jpg>]
+Overfull \hbox (28.8097pt too wide) in paragraph at lines 400--413
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--413
+
+ []
+
+[24] <planopkt.jpg, id=86, 1345.27594pt x 555.57562pt>
+File: planopkt.jpg Graphic file (type jpg)
+ <use planopkt.jpg>
+Package pdftex.def Info: planopkt.jpg used on input line 421.
+(pdftex.def)             Requested size: 483.70369pt x 341.43536pt.
+
+Overfull \hbox (56.91235pt too wide) in paragraph at lines 421--422
+ [] 
+ []
 
 No file doc.bbl.
-[23 <./rack.jpg>] (./doc.aux
+[25 <./planopkt.jpg>] (./doc.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2616 strings out of 495059
- 34585 string characters out of 3182030
+ 2621 strings out of 495059
+ 34664 string characters out of 3182030
  98917 words of memory out of 3000000
- 5754 multiletter control sequences out of 15000+200000
+ 5758 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,27p,562b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on doc.pdf (23 pages, 552350 bytes).
+Output written on doc.pdf (25 pages, 795216 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,3 +23,6 @@
 \contentsline {subsection}{\numberline {6.3}\textbf {Switches}}{20}
 \contentsline {subsection}{\numberline {6.4}\textbf {Acces point}}{20}
 \contentsline {section}{\numberline {7}\textbf {Mapa de coexiones de la red y Rack}}{22}
+\contentsline {section}{\numberline {8}\textbf {VLCM de la red}}{24}
+\contentsline {section}{\numberline {9}\textbf {Simulacion Packet Tracer}}{25}
+\contentsline {subsection}{\numberline {9.1}\textbf {Plano Packet Tracer}}{25}

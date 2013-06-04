@@ -382,6 +382,45 @@ En la siguiente imagen se mostrara la organización del rack con los dispositivo
 \rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=10cm,height=8cm]{rack.jpg}}}
 \end{center}
 
+\pagebreak
+\section{\textbf{VLCM de la red}}
+para el manejo de las direcciones de red, se manejo protocolo de enrrutamiento RIP v2 y VLCM para la asignación de las IP, en la siguiente tabla se muestra la asignación de cada IP a las redes internas necesarias dentro del callcenter.
+
+\begin{itemize}
+\item
+Red central = A.
+\item
+Red Oficina = B.
+\item
+Red de Sala de Atencion callcenter = C.
+\item
+Red Sala de visitas = D.
+\end{itemize}
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\makebox[2.5cm][c]{\textbf{Red}} &\makebox[2.5cm][c]{\textbf{Pcs}} &\makebox[2.5cm][c]{\textbf{Direccion}} &\makebox[2.5cm][c]{\textbf{Mask}} &\makebox[2.5cm][c]{\textbf{Rango}}\\
+\hline
+\makebox[2.5cm][c]{C} &\makebox[3.2cm][c]{18} &\makebox[2.5cm][c]{192.168.0.0} &\makebox[2.5cm][c]{255.255.255.224} &\makebox[2.5cm][c]{.1 - .30}\\
+\hline
+\makebox[2.5cm][c]{D} &\makebox[3.2cm][c]{10} &\makebox[2.5cm][c]{192.168.0.32} &\makebox[2.5cm][c]{255.255.255.240} &\makebox[2.5cm][c]{.33 - .46}\\
+\hline
+\makebox[2.5cm][c]{B} &\makebox[3.2cm][c]{7} &\makebox[2.5cm][c]{192.168.0.48} &\makebox[2.5cm][c]{255.255.255.240} &\makebox[2.5cm][c]{.49 - .62}\\
+\hline
+\makebox[2.5cm][c]{A} &\makebox[3.2cm][c]{4} &\makebox[2.5cm][c]{192.168.0.64} &\makebox[2.5cm][c]{255.255.255.248} &\makebox[2.5cm][c]{.65 - .70}\\
+\hline
+\end{tabular}\\\\
+
+
+\pagebreak
+\section{\textbf{Simulacion Packet Tracer}}
+El diseño de la red se simulo en el Cisco Packet Tracer, en donde se genero el plano de la red con las especificaciones requeridas y se demostró conexión entre los equipos y a la salida de internet.
+
+\subsection{\textbf{Plano Packet Tracer}}
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=17cm,height=12cm]{planopkt.jpg}}}
+\end{center}
+
 
 \bibliographystyle{abbrv}
 \bibliography{main}
